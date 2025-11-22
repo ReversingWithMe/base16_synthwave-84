@@ -1,4 +1,4 @@
-# Base16 Synthwave (inspired by Robb Owen's theme)
+# Base16 Synthwave (inspired by Robb Owen's themes)
 
 Based on: https://github.com/chriskempson/base16
     and https://github.com/chriskempson/base16-shell

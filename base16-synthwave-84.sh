@@ -30,6 +30,12 @@ color19="33/2a/4d" # Base 02 - UI background
 color20="c1/c3/e6" # Base 04 - Dim fg
 color21="ff/ff/ff" # Base 06 - Very bright fg
 
+color99="5B/3C/99" # Base 06 - Very bright fg
+color98="6C/4D/B2" # Base 06 - Very bright fg
+color97="7D/5E/CB" # Base 06 - Very bright fg
+color96="8E/6F/E4" # Base 06 - Very bright fg
+
+
 color_foreground="f5/f5/ff" # Base 05
 color_background="24/21/3a" # Base 00
 
@@ -79,6 +85,12 @@ put_template 18 $color18
 put_template 19 $color19
 put_template 20 $color20
 put_template 21 $color21
+
+# Comment specific helpers
+put_template 99 $color99
+put_template 98 $color98
+put_template 97 $color97
+put_template 96 $color96
 
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
